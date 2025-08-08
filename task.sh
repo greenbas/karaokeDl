@@ -11,3 +11,4 @@ yt-dlp "$(get_video_url)" \
   -o "/videos/${FILE_NAME}"
 
 reset_data
+echo "Download Task Complete!"

@@ -28,7 +28,6 @@ write_data() {
 
 write_data
 
-0>&- echo $(get_artist_name) | event_stream update | publish stuff  1>&- 2>&- &
 0>&- ./task.sh \
   | event_stream update \
   | publish stuff  1>&- 2>&- &
